@@ -1,12 +1,11 @@
 #include "header.h"
-
 /**
- * read_command - does just that
- * @cmd: command to be read
- * @par: pointer to arguments for the command
- * Return: nothingness
- *
- */
+* read_command - does just that
+* @cmd: command to be read
+* @par: pointer to arguments for the command
+* Return: nothingness
+*
+*/
 void read_command(char cmd[], char *par[])
 {
 char line[1024];

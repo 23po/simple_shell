@@ -4,12 +4,10 @@
 #include <unistd.h>
 #include <string.h>
 #include "header.h"
-
 /**
- * main - does the main thing of prompting a command, reading, and executing?
- * Return: bring int back
- */
-
+* main - does the main thing of prompting a command, reading, and executing?
+* Return: bring int back
+*/
 int main(void)
 {
 char cmd[100], command[100], *parameters[20];

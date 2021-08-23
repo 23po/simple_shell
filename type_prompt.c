@@ -1,9 +1,8 @@
 #include "header.h"
-
 /**
- * type_prompt - prompts the user for a command?
- * Return: nothingness
- */
+* type_prompt - prompts the user for a command?
+* Return: nothingness
+*/
 void type_prompt(void)
 {
 static int first_time = 1;
