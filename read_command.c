@@ -11,7 +11,7 @@ void read_command(char cmd[], char *par[])
 char line[1024];
 int count = 0, i = 0, j;
 char *array[100], *pch;
-for (;;)
+for ( ;; )
 {
 int c = fgetc(stdin);
 line[count++] = (char) c;
@@ -27,7 +27,7 @@ array[i++] = strdup(pch);
 pch = strtok(NULL, " \n");
 }
 strcpy(cmd, array[0]);
-for (j = 0; j < 1; j++)
+for (j = 0; j < i; j++)
 par[j] = array[j];
 par[i] = NULL;
 }

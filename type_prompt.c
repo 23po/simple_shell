@@ -12,5 +12,5 @@ const char *CLEAR_SCREEN_ANSI = " \033[1;1H\033[2J";
 write(STDOUT_FILENO, CLEAR_SCREEN_ANSI, 12);
 first_time = 0;
 }
-printf("#");
+printf("simple_shell#");
 }
