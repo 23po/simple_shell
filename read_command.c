@@ -8,7 +8,7 @@
 */
 void read_command(char cmd[], char *par[])
 {
-char line[1024];
+char line[1024] = {0};
 int count = 0, i = 0, j;
 char *array[100], *pch;
 for ( ;; )
