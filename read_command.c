@@ -30,4 +30,5 @@ strcpy(cmd, array[0]);
 for (j = 0; j < i; j++)
 par[j] = array[j];
 par[i] = NULL;
+free(pch);
 }
